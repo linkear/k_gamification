@@ -1,4 +1,5 @@
 [usuario]
+
 Yo como usuario quiero poder registrar mis datos para tener usuario y contraseña.
 
 Yo como usuario quiero poder iniciar sesión con mi cuenta de Gmail o Facebook.
