@@ -1,0 +1,34 @@
+CREATE DATABASE deportista;
+USE deportista;
+-- TABLE USER
+-- all pasword wil be encrypted using SHA1
+  CREATE TABLE users (
+    id INT(11) NOT NULL PRIMARY KEY,
+    username VARCHAR(16) NOT NULL,
+    password VARCHAR(60) NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    apellido VARCHAR(100) NOT NULL
+
+  );
+
+  ALTER TABLE users MODIFY id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 1;
+
+CREATE TABLE estadisticas (
+id INT(11) NOT NULL PRIMARY KEY,
+gol INT(4) NOT NULL,
+jugador INT(2) NOT NULL,
+amarillas INT(1) NOT NULL,
+rojas INT(1) NOT NULL,
+gol1 INT(4) NOT NULL,
+jugador1 INT(2) NOT NULL,
+amarillas1 INT(1) NOT NULL,
+rojas1 INT(1) NOT NULL,
+usuario INT(11) NOT NULL,
+tiempo TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+CONSTRAINT Fk_user FOREIGN KEY(usuario) REFERENCES users(id)
+
+);
+
+  ALTER TABLE estadisticas MODIFY id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 1;
+
+  

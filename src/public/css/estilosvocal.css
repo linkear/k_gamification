@@ -1,0 +1,44 @@
+/* ESTILO VOCAL*/
+
+body #titulo{
+    color: #cc00ff ;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-right: 910px;
+    margin-top: 170px;
+    float: right;
+    right:-250px;
+  }
+ h1 {
+    color: #ffffff ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    display: flex;
+    margin-left: -100px;
+    margin-top: 50px;
+    float: right;
+    right:-70px;
+position: relative;
+}
+
+*{
+    margin:2px;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+
+
+
+form {
+    margin:auto;
+    width:100%;
+    max-width:500px;;
+}
+
+body{
+background-image: url(../img/wallhaven-1joy3g.jpg);
+background-size: 100000px;
+background-repeat: no-repeat;
+}
+

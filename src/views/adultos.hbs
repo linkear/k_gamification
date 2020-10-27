@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/carrusel.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Fun Space</title><link href="../styles.css" rel="stylesheet" />
+    <link href="/css/estilos.css" rel="stylesheet" />
+    <link href="/css/carrusel.css" rel="stylesheet" />
+</head>
+<form action="/adultos">
+<body>
+
+	<div>
+		<a href="/categorias">
+			<button id="cate"type="button" class="btn btn-primary btn-lg btn-block">Categorias</button>
+		</a>
+	</div>
+
+	
+
+	<main>
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Actividades Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+			
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid1.mp4')"><img src="/img/1.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid2.mp4')"><img src="/img/2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid3.mp4')"><img src="/img/3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid4.mp4')"><img src="/img/4.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid5.mp4')"><img src="/img/5.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid6.mp4')"><img src="/img/6.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid7.mp4')"><img src="/img/7.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid8.mp4')"><img src="/img/1.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid9.mp4')"><img src="/img/2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid10.mp4')"><img src="/img/3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid11.mp4')"><img src="/img/4.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid12.mp4')"><img src="/img/5.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid13.mp4')"><img src="/img/6.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid14.mp4')"><img src="/img/7.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid15.mp4')"><img src="/img/1.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid16.mp4')"><img src="/img/2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid17.mp4')"><img src="/img/3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid18.mp4')"><img src="/img/4.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid19.mp4')"><img src="/img/5.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid20.mp4')"><img src="/img/6.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="videoUrl('/img/vid21.mp4')"><img src="/img/7.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+
+		</div>
+		<div class="pelicula-principal">
+			<div class="contenido">
+			<video src="/img/video.mkv" id="slider" autoplay controls>
+				
+			</video>
+		</div>
+		</div>
+	</main>
+
+
+
+<script type="text/javascript">
+	function videoUrl(hmmmm){
+		document.getElementById("slider").src = hmmmm;
+	}
+</script>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="/controllers/main.js"></script>
+</body>
+</form>
+</html>
